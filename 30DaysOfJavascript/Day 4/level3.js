@@ -11,7 +11,7 @@ let month30 = ['september', 'april', 'june', 'november'];
 let month28 = ['february'];
 let month31 = ['january', 'march', 'may', 'july', 'august', 'october', 'december'];
 
-let month = prompt('Enter a month: ');
+let month = prompt('Enter a month: ').toLowerCase();
 
 if (month30.includes(month)){
     console.log(`${month} has 30 days.`)
